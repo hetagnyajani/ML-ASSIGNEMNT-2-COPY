@@ -8,7 +8,8 @@ st.title("Bank Marketing Classification System")
 # -----------------------------
 # Load Static Dataset
 # -----------------------------
-data = pd.read_csv("bank.csv")
+uploaded_file = st.file_uploader("Upload CSV Test Data", type=["csv"])
+if uploaded_file: data = pd.read_csv(uploaded_file)
 st.success(f"Loaded dataset with {data.shape[0]} rows and {data.shape[1]} features")
 
 # -----------------------------
