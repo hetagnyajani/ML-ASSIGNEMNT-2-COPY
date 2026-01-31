@@ -6,9 +6,14 @@ import plotly.express as px
 st.title("Bank Marketing Classification System")
 
 #Upload Dataset#
+
 uploaded_file = st.file_uploader("Upload CSV Test Data", type=["csv"])
-if uploaded_file: data = pd.read_csv(uploaded_file)
-st.success(f"Loaded dataset with {data.shape[0]} rows and {data.shape[1]} features")
+
+if uploaded_file:
+    data = pd.read_csv(uploaded_file)
+    st.success(f"Loaded dataset with {data.shape[0]} rows and {data.shape[1]} features")
+else:
+    st.info("Please upload a CSV file to continue.")
 
 # -----------------------------
 # Select model
