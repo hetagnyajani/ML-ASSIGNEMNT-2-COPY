@@ -26,22 +26,22 @@ Target Type: Binary (Yes/No)
 
 # Feature Description
 
-1. age – Age of the client
-2. job – Type of job
-3. marital – Marital status
-4. education – Education level
-5. default – Has credit in default
-6. balance – Average yearly account balance (in euros)
-7. housing – Has housing loan
-8. loan – Has personal loan
-9. contact – Contact communication type
-10. day – Last contact day of the month
-11. month – Last contact month
-12. duration – Duration of last contact (in seconds)
-13. campaign – Number of contacts performed during this campaign
-14. pdays – Number of days since client was last contacted
-15. previous – Number of contacts performed before this campaign
-16. outcome – Outcome of the previous marketing campaign
+1. Age – Age of the client
+2. Job – Type of job
+3. Marital – Marital status
+4. Education – Education level
+5. Default – Has credit in default
+6. Balance – Average yearly account balance (in euros)
+7. Housing – Has housing loan
+8. Loan – Has personal loan
+9. Contact – Contact communication type
+10. Day – Last contact day of the month
+11. Month – Last contact month
+12. Duration – Duration of last contact (in seconds)
+13. Campaign – Number of contacts performed during this campaign
+14. P.days – Number of days since client was last contacted
+15. Previous – Number of contacts performed before this campaign
+16. Outcome – Outcome of the previous marketing campaign
 
 # Models Used
 
