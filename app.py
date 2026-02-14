@@ -28,7 +28,7 @@ from sklearn.metrics import (
 # -----------------------------
 # Page Config
 # -----------------------------
-st.set_page_config(page_title="Bank Marketing ML App", layout="wide")
+st.set_page_config(page_title="Bank Marketing ML App- 2024dc04169", layout="wide")
 st.title("Bank Marketing Classification System")
 
 # -----------------------------
@@ -96,7 +96,7 @@ X_train_p = preprocessor.fit_transform(X_train)
 X_test_p = preprocessor.transform(X_test)
 
 # Model Selection
-st.subheader("🔍 Select Model")
+st.subheader("Select Model")
 
 model_name = st.selectbox(
     "Choose Model",

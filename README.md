@@ -10,7 +10,7 @@ Bank Marketing Dataset
 
 This project uses the Bank Marketing Dataset, which contains data related to direct marketing campaigns (phone calls) conducted by a Portuguese banking institution. The objective is to predict whether a customer will subscribe to a term deposit based on demographic, financial, and campaign-related attributes.
 
-# * Target Varible
+# Target Varible
 
 deposit
 yes – Customer subscribed to a term deposit
@@ -79,3 +79,26 @@ An advanced gradient boosting algorithm that builds trees sequentially to improv
 | Naive Bayes         | 0.717    | 0.810 | 0.804     | 0.534  | 0.642 | 0.448 |
 | Random Forest       | 0.861    | 0.919 | 0.831     | 0.887  | 0.858 | 0.724 |
 | XGBoost             | 0.864    | 0.925 | 0.841     | 0.879  | 0.860 | 0.729 |
+
+# Steps to Execute code in VS Code
+1. Clone the repository using git clone command and url: https://github.com/hetagnyajani/ML-ASSIGNEMNT-2-2024dc04169_Jani-Hetagnya-.git
+2. Then run pip install -r requirements.txt and load required dependencies
+3. Now write streamlit run app.py in the terminal to execute it
+4. It will Execute the code and it will open the streamlit app in the browser.
+5. If does not open then manually go to http://localhost:8501
+
+# How to Use the Application
+
+1. Upload the test dataset (.csv file)
+2. Select the desired Machine Learning model
+3. View prediction results
+4. Analyze evaluation metrics and probability distribution, Confusion Matrix.
+
+# Conclusion
+In this assignment, multiple Machine Learning models were implemented and evaluated for the Bank Marketing Classification problem. The performance comparison shows that ensemble methods such as Random Forest and XGBoost achieved the highest accuracy, AUC, F1-score, and MCC values, indicating better generalization and predictive performance.
+
+Among all models, XGBoost performed the best overall, followed closely by Random Forest. Simpler models like Logistic Regression and KNN also produced competitive results, while Naive Bayes showed comparatively lower recall and MCC.
+
+This comparative analysis demonstrates that ensemble techniques provide more robust and reliable predictions for this dataset.
+
+
