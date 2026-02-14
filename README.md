@@ -80,6 +80,18 @@ An advanced gradient boosting algorithm that builds trees sequentially to improv
 | Random Forest       | 0.861    | 0.919 | 0.831     | 0.887  | 0.858 | 0.724 |
 | XGBoost             | 0.864    | 0.925 | 0.841     | 0.879  | 0.860 | 0.729 |
 
+## Model Performance Observations
+
+| Model Name          | Accuracy | AUC   | F1 Score | MCC   | Observations |
+|---------------------|----------|-------|----------|-------|--------------|
+| Logistic Regression | 0.825    | 0.907 | 0.812    | 0.649 | Strong baseline model with good balance between precision and recall. |
+| Decision Tree       | 0.792    | 0.791 | 0.778    | 0.582 | Captures non-linear patterns but shows lower generalization than ensembles. |
+| KNN                 | 0.829    | 0.884 | 0.818    | 0.658 | Balanced performance; sensitive to scaling and choice of k. |
+| Naive Bayes         | 0.717    | 0.810 | 0.642    | 0.448 | Fast but weakest performer due to independence assumption. |
+| Random Forest       | 0.861    | 0.919 | 0.858    | 0.724 | Strong ensemble model with high recall and stability. |
+| XGBoost             | 0.864    | 0.925 | 0.860    | 0.729 | Best overall performer with highest Accuracy and AUC. |
+
+
 # Steps to Execute code in VS Code
 1. Clone the repository using git clone command and url: https://github.com/hetagnyajani/ML-ASSIGNEMNT-2-2024dc04169_Jani-Hetagnya-.git
 2. Then run pip install -r requirements.txt and load required dependencies
