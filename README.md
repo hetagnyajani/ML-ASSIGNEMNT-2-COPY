@@ -69,12 +69,13 @@ An ensemble learning method that builds multiple decision trees and combines the
 6. XGBoost Classifier
 An advanced gradient boosting algorithm that builds trees sequentially to improve performance and handle complex patterns.
 
-# Evaluation Matrices
+## Evaluation Metrics
 
-|Model Name         |Accuracy| AUC      | Precision | Recall   | F1       | MCC   |
-|Logistic Regression|0.825   | 0.907    | 0.827     | 0.797    | 0.812    | 0.649 |
-|Decision Tree      |0.792   | 0.791    | 0.785     | 0.772    | 0.778    | 0.582 |
-|KNN                |0.829   | 0.884    | 0.829     | 0.807    | 0.818    | 0.658 |
-|Naive Bayes        |0.717   | 0.810    | 0.804     | 0.534    | 0.642    | 0.448 |
-|Random Forest      |0.861   | 0.919    | 0.831     | 0.887    | 0.858    | 0.724 |
-|XGBoost            |0.864   | 0.925    | 0.841     | 0.879    | 0.860    | 0.729 |
+| Model Name          | Accuracy | AUC   | Precision | Recall | F1    | MCC   |
+|---------------------|----------|-------|-----------|--------|-------|-------|
+| Logistic Regression | 0.825    | 0.907 | 0.827     | 0.797  | 0.812 | 0.649 |
+| Decision Tree       | 0.792    | 0.791 | 0.785     | 0.772  | 0.778 | 0.582 |
+| KNN                 | 0.829    | 0.884 | 0.829     | 0.807  | 0.818 | 0.658 |
+| Naive Bayes         | 0.717    | 0.810 | 0.804     | 0.534  | 0.642 | 0.448 |
+| Random Forest       | 0.861    | 0.919 | 0.831     | 0.887  | 0.858 | 0.724 |
+| XGBoost             | 0.864    | 0.925 | 0.841     | 0.879  | 0.860 | 0.729 |
