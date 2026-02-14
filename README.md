@@ -10,7 +10,7 @@ Bank Marketing Dataset
 
 This project uses the Bank Marketing Dataset, which contains data related to direct marketing campaigns (phone calls) conducted by a Portuguese banking institution. The objective is to predict whether a customer will subscribe to a term deposit based on demographic, financial, and campaign-related attributes.
 
-# Target Varible
+# Target Variable
 
 deposit
 yes – Customer subscribed to a term deposit
