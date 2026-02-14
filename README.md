@@ -72,7 +72,6 @@ An advanced gradient boosting algorithm that builds trees sequentially to improv
 ## Evaluation Metrics
 
 | Model Name          | Accuracy | AUC   | Precision | Recall | F1    | MCC   |
-|---------------------|----------|-------|-----------|--------|-------|-------|
 | Logistic Regression | 0.825    | 0.907 | 0.827     | 0.797  | 0.812 | 0.649 |
 | Decision Tree       | 0.792    | 0.791 | 0.785     | 0.772  | 0.778 | 0.582 |
 | KNN                 | 0.829    | 0.884 | 0.829     | 0.807  | 0.818 | 0.658 |
